@@ -1,11 +1,31 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+// import { ref } from 'vue'
+// import Preloader from './sections/Preloader.vue'
+import HeroSection from './sections/HeroSection.vue';
+import Test from './sections/Test.vue';
+import DentalSection from './sections/DentalSection.vue';
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div
+    class="min-h-screen bg-slate-950 text-slate-50 font-sans antialiased selection:bg-emerald-500 selection:text-slate-900"
+  >
+    <!-- Плавный переход для прелоадера -->
+    <!-- <Transition
+      leave-active-class="transition duration-1000 ease-in-out"
+      leave-from-class="opacity-100"
+      leave-to-class="opacity-0 pointer-events-none"
+    >
+      <Preloader v-if="isLoading" @loaded="handleLoaded" /> -->
+    <!-- </Transition> -->
+
+    <!-- Основной контент сайта -->
+    <!-- Используем v-if или рендерим сразу под прелоадером, так как прелоадер закроет экран за счет fixed -->
+    <main>
+      <HeroSection />
+      <DentalSection />
+    </main>
+  </div>
 </template>
 
 <style scoped></style>
