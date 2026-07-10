@@ -1,48 +1,32 @@
-# full Homepage
+# Full Hero Section with Video Background
 
-This template should help get you started developing with Vue 3 in Vite.
+A clean and responsive Hero section built with Vue 3. It features an optimized video background and focuses on fast loading times and code stability.
 
-## Recommended IDE Setup
+## Live Link
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+You can see it in action here: [Live Preview](https://landingpagewtihtheparticlesystem.netlify.app/)
 
-## Recommended Browser Setup
+## Preview
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+<!-- You can replace this placeholder with your actual screenshot later -->
 
-## Type Support for `.vue` Imports in TS
+![Hero Section Preview](./screens/Hero.png)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## Main Features
 
-## Customize configuration
+- Responsive layout that adapts well to any screen size.
+- Smooth video background implementation.
+- Lightweight codebase without unnecessary heavy dependencies.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Tech Stack
 
-## Project Setup
+- Vue 3 / Vite
+- Tailwind CSS
 
-```sh
-npm install
-```
+## How to Run Locally
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+1. Clone the repository and navigate to the folder:
+   ```bash
+   git clone [https://github.com/Godsdar/Full-Hero-for-Alegra-Labs.git](https://github.com/Godsdar/Full-Hero-for-Alegra-Labs.git)
+   cd Full-Hero-for-Alegra-Labs
+   ```
