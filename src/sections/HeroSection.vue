@@ -29,8 +29,6 @@ const handleScroll = () => {
 };
 
 onMounted(() => {
-  if (videoRef.value) videoRef.value.playbackRate = 0.5;
-  // Поправлено: привязываем обработчик напрямую к window
   window.addEventListener('scroll', handleScroll);
 });
 
@@ -87,7 +85,7 @@ onUnmounted(() => {
       </div>
     </header>
 
-    <div class="absolute inset-0 z-10 pointer-events-none mix-blend-multiply">
+    <div class="absolute inset-0 z-10 pointer-events-none">
       <video
         ref="videoRef"
         src="../assets/hero video.mp4"
@@ -149,8 +147,6 @@ onUnmounted(() => {
 h1 {
   word-spacing: -0.05em;
 }
-/* Градиентная маска: сверху видео плотное, с 50% высоты начинает плавно растворяться,
-   а на 85% полностью исчезает в прозрачность, оголяя чистый кремовый фон */
 .video-mask {
   -webkit-mask-image: linear-gradient(
     to bottom,
