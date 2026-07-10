@@ -23,7 +23,6 @@ import SmokeParticles from './components/SmokeParticles.vue';
     <!-- Используем v-if или рендерим сразу под прелоадером, так как прелоадер закроет экран за счет fixed -->
     <main>
       <HeroSection />
-      <!-- <SmokeParticles /> -->
       <DentalSection />
     </main>
   </div>

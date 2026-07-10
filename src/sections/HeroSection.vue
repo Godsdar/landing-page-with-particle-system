@@ -88,7 +88,7 @@ onUnmounted(() => {
     <div class="absolute inset-0 z-10 pointer-events-none">
       <video
         ref="videoRef"
-        src="../assets/hero video.mp4"
+        src="../assets/v3.mp4"
         autoplay
         loop
         muted
